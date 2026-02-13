@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    color: rgb(87, 18, 41);
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+.btnContainer {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button, a {
+    color: rgb(87, 18, 41);
+    background-color: pink;
+    padding: 5px 10px;
+    border: 1px solid rgb(87, 18, 41);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(87, 18, 41);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#directYes {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#directYes p {
+    margin-top: 10px;
+}
+
+#firstNo, #whereIsTheBtn, #btnGone, #challenge, #game, #gameWon {
+    display: none;
+}
+
+#emoji {
+    font-size: 50px;
+}
